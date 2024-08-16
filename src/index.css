@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "BebasNeue";
+  src:
+    url("/public//Bebas_Neue/BebasNeue-Regular.ttf"), format('ttf')
+}
+body {
+  margin: 0;
+  font-family:"BebasNeue";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
